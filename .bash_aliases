@@ -29,6 +29,9 @@ alias rdpsql='rake db:drop && rake db:create && rake db:migrate && rails s'
 alias rap='rake assets:precompile RAILS_ENV=production'
 alias rsecrets='rake secrets'
 alias rabout='rails about'
+alias railsdc 'RAILS_ENV=development bundle exec rails c'
+alias railstc 'RAILS_ENV=test bundle exec rails c'
+alias railspc 'RAILS_ENV=production bundle exec rails c'
 
 #-------RVM (Ruby Version Manager)------
 alias rvmgc='rvm gemset create' # Create new gemset (name gemset)
@@ -81,6 +84,8 @@ alias ls='ls -F --color=auto'
 alias lsd='ls -d */'
 alias md='mkdir'
 alias cls='clear'
+alias kernel='uname -r' # Linux version kernels
+alias ubuntuv='lsb_release -a' # Checking Your Ubuntu Version
 
 #-------OTHER-------
 alias where='whereis'

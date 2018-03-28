@@ -1,3 +1,6 @@
+# Example
+# alias AliasName='Command Line'
+
 #-------FILES-------
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -29,9 +32,9 @@ alias rdpsql='rake db:drop && rake db:create && rake db:migrate && rails s'
 alias rap='rake assets:precompile RAILS_ENV=production'
 alias rsecrets='rake secrets'
 alias rabout='rails about'
-alias railsdc 'RAILS_ENV=development bundle exec rails c'
-alias railstc 'RAILS_ENV=test bundle exec rails c'
-alias railspc 'RAILS_ENV=production bundle exec rails c'
+alias railsdc='RAILS_ENV=development bundle exec rails c'
+alias railstc='RAILS_ENV=test bundle exec rails c'
+alias railspc='RAILS_ENV=production bundle exec rails c'
 
 #-------RVM (Ruby Version Manager)------
 alias rvmgc='rvm gemset create' # Create new gemset (name gemset)
@@ -91,3 +94,11 @@ alias ubuntuv='lsb_release -a' # Checking Your Ubuntu Version
 alias where='whereis'
 alias disks='ls /dev/disk/by-uuid/ -alh'
 
+#-------PostgresSQL-------
+alias psqlstart='sudo service postgresql start'
+alias psqlstatus='sudo service postgresql status'
+alias psqlstop='sudo service postgresql stop'
+alias psqlcreateuser='sudo -u postgres createuser' #sudo -u postgres createuser NameUser
+alias psqlopen='sudo -u postgres psql postgres' # Opem PostSql
+#alias AliasName='Command'
+#alias AliasName='Command'

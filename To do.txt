@@ -1,80 +1,13 @@
-source ~/.rvm/scripts/rvm
-source /home/shv/.rvm/scripts/rvm
+# Example
+# alias AliasName='Command Line'
+
+#-------FILES-------
+# alias ..='cd ..'
 
 
-gem 'figaro'
-
-anki shorstcatu
-
+# Rails 
+alias installb='gem install bundler'
 
 
-
-# lsof -i :4567
-COMMAND  PID USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
-ruby    7987  shv    9u  IPv4  92065      0t0  TCP localhost:4567 (LISTEN)
-# kill -9 7987
-
-
-
-kernel Version in Linux version kernels
-uname -r
-uname -ir
-
-
-CheckingYourUbuntuVersion
-lsb_release -a
-
-
-git reset --hard HEAD
-
-RAILS_ENV=test bundle exec rails c
-
-
-------------------------------------
-
-new ssh
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
-sshcirp
-cat ~/.ssh/id_rsa.pub
-
-sshsee
-ls ~/.ssh/
-
-bundler
-gem install bundler
-
-ip see
-ifconfig -a
-
-
-PSQL SUPERSUS!!!!!!!!!!!!
-sudo -u postgres psql
-\du
-alter role <user-name> superuser;
-
-dpkg -l | grep postgresql
-pg_lsclusters
-
-psql --version
-
-folow db name 
-sudo -u postgres createuser shv
-sudo -u postgres psql
-\du
-alter role shv superuser;
-
-
-Rail C
-ActiveRecord::Base.connection.tables
-
-rake tasks
-rake -W
-
-Angular
-0. npm install -g @angular/cli
-1. npm install
-2. ng serve
-
-
-
+# Linux
+alias la='ls -la'
